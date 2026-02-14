@@ -215,6 +215,23 @@ nav a:hover {
     transform: scale(1.05);
 }
 
+.banner-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.banner-gallery img {
+    width: 100%;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.banner-gallery img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 15px 40px rgba(47, 15, 16, 0.3);
+}
+
 form {
     display: flex;
     flex-direction: column;
